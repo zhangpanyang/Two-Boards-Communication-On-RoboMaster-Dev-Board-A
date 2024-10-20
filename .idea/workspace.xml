@@ -23,21 +23,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ed18f18-9356-42b7-98f8-0d16eda2ba60" name="更改" comment="Create CAN task">
-      <change afterPath="$PROJECT_DIR$/Core/Src/key_task.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/key_task.h" afterDir="false" />
+    <list default="true" id="4ed18f18-9356-42b7-98f8-0d16eda2ba60" name="更改" comment="rename can_task.cpp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/canTask.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/canTask.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/canTask.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/canTask.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/startup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/startup.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6320152127e57519d90c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-20T13-07-37-0937.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-STM32TwoBoardsCommunication.elf-b4380c46ed15f179f934.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +72,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="OpenOCD 下载并运行.STM32TwoBoardsCommunication.elf">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -96,6 +83,18 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="STM32TwoBoardsCommunication.elf" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32TwoBoardsCommunication" TARGET_NAME="STM32TwoBoardsCommunication.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="STM32TwoBoardsCommunication" RUN_TARGET_NAME="STM32TwoBoardsCommunication.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\MyProgramData\Engineering\Embedded\JLink\openocd_dap.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.STM32TwoBoardsCommunication.elf" />
+      <item itemvalue="OpenOCD 下载并运行.STM32TwoBoardsCommunication.elf" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -105,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729428189508</updated>
-      <workItem from="1729428190852" duration="2326000" />
+      <workItem from="1729428190852" duration="2468000" />
     </task>
     <task id="LOCAL-00001" summary="Create CAN task">
       <option name="closed" value="true" />
@@ -115,14 +114,37 @@
       <option name="project" value="LOCAL" />
       <updated>1729429711603</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create Key Task">
+      <option name="closed" value="true" />
+      <created>1729431878953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729431878953</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rename can_task.cpp">
+      <option name="closed" value="true" />
+      <created>1729431925594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729431925594</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create CAN task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create CAN task" />
+    <MESSAGE value="Create Key Task" />
+    <MESSAGE value="rename can_task.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename can_task.cpp" />
   </component>
 </project>
