@@ -18,7 +18,7 @@
           <Vendor>STMicroelectronics</Vendor>
           <PackID>Keil.STM32F4xx_DFP.2.16.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
-          <Cpu>IRAM(0x20000000-0x2002FFFF) IRAM2(0x10000000-0x1000FFFF) IROM(0x8000000-0x81FFFFF) CLOCK(25000000) FPU2 CPUTYPE("Cortex-M4") TZ</Cpu>
+          <Cpu>IRAM(0x20000000-0x2002FFFF) IRAM2(0x10000000-0x1000FFFF) IROM(0x8000000-0x81FFFFF)  CLOCK(25000000) FPU2 CPUTYPE("Cortex-M4") TZ</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
           <FlashDriverDll></FlashDriverDll>
@@ -395,6 +395,21 @@
           <GroupName>Application/User/Core</GroupName>
           <Files>
             <File>
+              <FileName>can_task.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Core\Src\can_task.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>key_task.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Core\Src\key_task.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>startup.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Core\Src\startup.cpp</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/main.c</FilePath>
@@ -418,21 +433,6 @@
               <FileName>stm32f4xx_hal_msp.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f4xx_hal_msp.c</FilePath>
-            </File>
-            <File>
-              <FileName>can_task.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\Core\Src\can_task.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>key_task.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\Core\Src\key_task.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>startup.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\Core\Src\startup.cpp</FilePath>
             </File>
           </Files>
         </Group>

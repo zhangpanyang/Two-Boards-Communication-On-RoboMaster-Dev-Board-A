@@ -151,7 +151,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -746,16 +746,12 @@
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
-					"value" : "Program used to build from build.ninja files."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/MyProgramFiles/Engineering/Embedded/STM32CubeCLT-1.16.0/STM32CubeCLT_1.16.0/Ninja/bin/ninja.exe"
+			"type" : "UNINITIALIZED",
+			"value" : "C:/Users/Sunny/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",

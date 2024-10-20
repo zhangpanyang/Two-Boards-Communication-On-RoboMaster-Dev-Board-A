@@ -23,7 +23,76 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ed18f18-9356-42b7-98f8-0d16eda2ba60" name="更改" comment="fix startup.h" />
+    <list default="true" id="4ed18f18-9356-42b7-98f8-0d16eda2ba60" name="更改" comment="fix can_task.h">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/can.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/can.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/can_task.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/can_task.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication.uvguix.Sunny" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication.uvguix.Sunny" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication.uvoptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication.uvprojx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication.axf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication.axf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication.build_log.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication.hex" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication.lnp" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication.lnp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication_STM32TwoBoardsCommunication.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/STM32TwoBoardsCommunication_STM32TwoBoardsCommunication.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/can.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/can.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/can.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/can.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/can_task.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/can_task.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/gpio.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/main.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/main.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/stm32f4xx_hal.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TwoBoardsCommunication/stm32f4xx_hal.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32TwoBoardsCommunication.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/STM32TwoBoardsCommunication.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-58d9de4a20e86be8aaa3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-974b8b01ad08591840e4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7faf6afd03a249e3f32f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-20T13-46-41-0954.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-STM32TwoBoardsCommunication.elf-cb55ccade680d55239d8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/can.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/can_task.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/gpio.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/key_task.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/startup.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/syscalls.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/sysmem.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/system_stm32f4xx.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,11 +140,6 @@
   }
 }</component>
   <component name="RunManager" selected="OpenOCD 下载并运行.STM32TwoBoardsCommunication.elf">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="STM32TwoBoardsCommunication.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32TwoBoardsCommunication" TARGET_NAME="STM32TwoBoardsCommunication.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="STM32TwoBoardsCommunication" RUN_TARGET_NAME="STM32TwoBoardsCommunication.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -102,7 +166,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729428189508</updated>
-      <workItem from="1729428190852" duration="2654000" />
+      <workItem from="1729428190852" duration="7850000" />
+      <workItem from="1729439070241" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="Create CAN task">
       <option name="closed" value="true" />
@@ -144,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729432080721</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix can_task.h">
+      <option name="closed" value="true" />
+      <created>1729432207808</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729432207808</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +233,7 @@
     <MESSAGE value="Create Key Task" />
     <MESSAGE value="rename can_task.cpp" />
     <MESSAGE value="fix startup.h" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix startup.h" />
+    <MESSAGE value="fix can_task.h" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix can_task.h" />
   </component>
 </project>

@@ -22,26 +22,31 @@ void canTaskInit()
 	HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
 }
 
+uint8_t rxData;
+CAN_RxHeaderTypeDef rxHeader;
+
 void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef* hcan)
 {
 	if (hcan == &hcan1)
 	{
+		HAL_CAN_GetRxMessage(&hcan1, CAN_RX_FIFO0, &rxHeader, &rxData);
 		HAL_GPIO_TogglePin(LED_G_GPIO_Port, LED_G_Pin);
 	}
 }
 
 CAN_TxHeaderTypeDef txHeader={
-	.StdId = 0x100,
-	.ExtId = 0x100,
+	.StdId = 0x200,
+	.ExtId = 0x200,
 	.IDE = CAN_ID_STD,
 	.RTR = CAN_RTR_DATA,
-	.DLC = 8,
+	.DLC = 1,
 	.TransmitGlobalTime = DISABLE
 };
 uint32_t txMailbox;
-uint8_t txData[8];
+uint8_t txData;
 
 void canSendSignal()
 {
-	HAL_CAN_AddTxMessage(&hcan1, &txHeader, txData,  &txMailbox);
+	HAL_CAN_AddTxMessage(&hcan1, &txHeader, &txData,  &txMailbox);
+	// HAL_Delay(100);
 }

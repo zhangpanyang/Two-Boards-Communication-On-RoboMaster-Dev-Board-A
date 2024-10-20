@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.29"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "STM32TwoBoardsCommunication.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-STM32TwoBoardsCommunication.elf-cb55ccade680d55239d8.json",
+					"jsonFile" : "target-STM32TwoBoardsCommunication.elf-Debug-eb9e1b66dc465a2bb203.json",
 					"name" : "STM32TwoBoardsCommunication.elf",
 					"projectIndex" : 0
 				}
