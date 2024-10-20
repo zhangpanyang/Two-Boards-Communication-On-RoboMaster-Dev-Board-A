@@ -29,3 +29,9 @@
 7	158	7511352680049682	CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/main.c.obj	c06e2be49b40e031
 12	169	7511352680163384	CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/startup.cpp.obj	9aff43a53a7042ad
 169	1079	7511352681458773	STM32TwoBoardsCommunication.elf	6d2ab675e47b5b17
+22	198	7511353928004391	CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/main.c.obj	c06e2be49b40e031
+6	199	7511353928014458	CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/can.c.obj	28da7b296eaab15e
+13	212	7511353928156731	CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/can_task.cpp.obj	5b068e6cf71f0423
+18	223	7511353928255440	CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/key_task.cpp.obj	a4872ea38d69e878
+27	223	7511353928255440	CMakeFiles/STM32TwoBoardsCommunication.elf.dir/Core/Src/startup.cpp.obj	9aff43a53a7042ad
+223	370	7511353929396852	STM32TwoBoardsCommunication.elf	6d2ab675e47b5b17

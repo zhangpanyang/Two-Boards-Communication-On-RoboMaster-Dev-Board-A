@@ -23,9 +23,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ed18f18-9356-42b7-98f8-0d16eda2ba60" name="更改" comment="rename can_task.cpp">
-      <change beforePath="$PROJECT_DIR$/Core/Src/startup.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/startup.h" afterDir="false" />
-    </list>
+    <list default="true" id="4ed18f18-9356-42b7-98f8-0d16eda2ba60" name="更改" comment="fix startup.h" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729428189508</updated>
-      <workItem from="1729428190852" duration="2533000" />
+      <workItem from="1729428190852" duration="2654000" />
     </task>
     <task id="LOCAL-00001" summary="Create CAN task">
       <option name="closed" value="true" />
@@ -138,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729432007044</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix startup.h">
+      <option name="closed" value="true" />
+      <created>1729432080721</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729432080721</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +159,7 @@
     <MESSAGE value="Create CAN task" />
     <MESSAGE value="Create Key Task" />
     <MESSAGE value="rename can_task.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename can_task.cpp" />
+    <MESSAGE value="fix startup.h" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix startup.h" />
   </component>
 </project>

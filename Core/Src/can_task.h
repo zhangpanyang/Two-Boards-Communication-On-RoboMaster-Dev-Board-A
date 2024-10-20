@@ -3,7 +3,7 @@
 //
 
 #ifndef CAN_TASK_H
-#define CAN_TASK_HH
+#define CAN_TASK_H
 
 #include "main.h"
 #include "can.h"
