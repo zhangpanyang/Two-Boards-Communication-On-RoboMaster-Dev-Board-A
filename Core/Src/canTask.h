@@ -9,5 +9,6 @@
 #include "can.h"
 
 void canTaskInit();
+void canSendSignal();
 
 #endif //CAN_TASK_H

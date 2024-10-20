@@ -3,10 +3,11 @@
 //
 
 #include "startup.h"
+#include "canTask.h"
 
 void startup()
 {
-
+	canTaskInit();
 	while(1)
 	{
 

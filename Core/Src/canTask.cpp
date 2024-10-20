@@ -38,3 +38,10 @@ CAN_TxHeaderTypeDef txHeader={
 	.DLC = 8,
 	.TransmitGlobalTime = DISABLE
 };
+uint32_t txMailbox;
+uint8_t txData[8];
+
+void canSendSignal()
+{
+	HAL_CAN_AddTxMessage(&hcan1, &txHeader, txData,  &txMailbox);
+}
