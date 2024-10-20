@@ -18,7 +18,7 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include "canTask.h"
+#include "can_task.h"
 
 /* USER CODE BEGIN 0 */
 
